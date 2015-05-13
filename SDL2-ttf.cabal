@@ -22,6 +22,7 @@ Library
   include-dirs:     cbits
   C-sources:        cbits/rendering.c
   extra-libraries:  SDL2, SDL2_ttf
+  pkgconfig-depends: sdl2
 
 source-repository head
     type:     git
